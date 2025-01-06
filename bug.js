@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  The picker may fail to return a result, leaving the app in a seemingly unresponsive state. This is inconsistent and only happens sporadically. The promise from useDocumentPickerAsync never resolves, and there are no errors thrown.
